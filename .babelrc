@@ -1,0 +1,13 @@
+// .babelrc
+{
+    "presets": ["@babel/preset-react"],
+    "plugins": [
+      [
+        "react-intl",
+        {
+          "messagesDir": "./src/messages/"
+        }
+      ]
+    ]
+  }
+  
